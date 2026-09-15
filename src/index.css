@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+main.container {
+  padding-top: 20px;
+}
+
+.card {
+  border-radius: 12px;
+}
+
+.navbar {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.navbar .nav-link {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar .nav-link:hover {
+  color: #fff;
+}
+
+.table th,
+.table td {
+  vertical-align: middle;
+}
+
+.pagination .page-link {
+  cursor: pointer;
+}
+
+.form-label {
+  font-weight: 600;
+}
+
+.btn {
+  border-radius: 8px;
+}
